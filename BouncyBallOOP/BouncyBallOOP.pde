@@ -2,6 +2,7 @@ Ball a;                //declare a new ball called b
 Ball b;
 Ball c;
 Ball d;
+Ball shiv;
 
 void setup() {
   size(800, 800);
@@ -9,6 +10,7 @@ void setup() {
   b = new Ball();
   c = new Ball();
   d = new Ball();
+  shiv = new Ball();
 }
 
 void draw() {
@@ -17,4 +19,5 @@ void draw() {
   b.run();
   c.run();
   d.run();
+  shiv.run();
 }
